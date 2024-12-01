@@ -43,7 +43,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
 	return {
 		title: meta.title,
-		description: meta.description,
+		// description: meta.description,
 		openGraph: {
 			title: og.title,
 			description: og.description,

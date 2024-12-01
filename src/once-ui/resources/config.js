@@ -16,32 +16,31 @@ const style = {
 
 // default metadata
 const meta = {
-    title: 'Once UI - Your Personalized Design System for Next.js',
-    description: 'An open-source design system and component library for Next.js that emphasizes easy styling and accessibility in UI development.'
+    title: 'CipherAlpha Capital Ltd.',
 }
 
 
 // default open graph data
 const og = {
-    title: 'Once UI for Next.js',
-    description: 'We let designers code and developers design.',
+    title: 'CipherAlpha Capital Ltd',
+    description: 'CipherAlpha Capital Ltd',
     type: 'website'
 }
 
 // default schema data
 const schema = {
     logo: '',
-    type: 'Organization',
-    name: 'One UI',
-    description: 'Once UI is an open-source design system and component library for Next.js.',
-    email: 'lorant@once-ui.com'
+    type: 'CipherAlpha Capital Ltd',
+    name: 'CipherAlpha Capital Ltd',
+    description: 'CipherAlpha Capital Ltd',
+    email: 'CipherAlpha Capital Ltd'
 }
 
 // social links
 const social = {
-    twitter: 'https://www.twitter.com/_onceui',
-    linkedin: 'https://www.linkedin.com/company/once-ui/',
-    discord: 'https://discord.com/invite/5EyAQ4eNdS'
+    twitter: 'https://www.twitter.com/',
+    linkedin: 'https://www.linkedin.com/',
+    discord: 'https://discord.com'
 }
 
 export { baseURL, style, meta, og, schema, social };

@@ -8,23 +8,52 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "https://once-ui.com/docs/theming",
-			title: "Themes",
-			description: "Style your app in minutes.",
+			href: "https://cipheralphacapital.com/",
+			title: "Institutional-Grade Dark Pools on Our Crytpo Exchange ",
 		},
 		{
-			href: "https://once-ui.com/docs/flexComponent",
-			title: "Layout",
-			description: "Build responsive layouts.",
+			href: "https://cipheralphacapital.com/",
+			title: "Automated Quant Algo Development",
+			// description: "Build responsive layouts.",
 		},
 		{
-			href: "https://once-ui.com/docs/typography",
-			title: "Typography",
-			description: "Scale text automatically.",
+			href: "https://cipheralphacapital.com/",
+			title: "Trade Crypto Spots and Prepertual Futures",
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "Streamlined Altcoin Integration"
+			// description: "Style your app in minutes.",
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "Customizable AI Bots",
+			// description: "Build responsive layouts.",
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "Pre-Market Trading Capabilities",
+			// description: "Scale text automatically.",
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "Trading Terminals",
+			//  Custodial and non-custodial
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "Custodial and Non Custodial Wallets",
+
+		},
+		{
+			href: "https://cipheralphacapital.com/",
+			title: "All-In-One Trading Platform",
+
 		},
 	];
 
 	return (
+
 		<Flex
 			fillWidth paddingTop="l" paddingX="l"
 			direction="column" alignItems="center" flex={1}>
@@ -43,36 +72,39 @@ export default function Home() {
 						<Flex
 							position="relative"
 							flex={2} paddingTop="56" paddingX="xl">
-							<Logo size="xl" icon={false} style={{zIndex: '1'}} href="https://once-ui.com"/>
+								<h1 className="font-code">CipherAlpha Capital Ltd.</h1>
 						</Flex>
 						<Flex
 							position="relative"
 							flex={4} gap="24" marginBottom="104"
 							direction="column">
-							<InlineCode
+							{/* <InlineCode
 								className="shadow-m"
 								style={{
 									width: 'fit-content',
 									padding: 'var(--static-space-8) var(--static-space-16)',
 									backdropFilter: 'blur(var(--static-space-1))'}}>
 								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
-							</InlineCode>
+							</InlineCode> */}
 							<Heading
 								wrap="balance"
 								variant="display-strong-s">
 								<span className="font-code">
 									<LetterFx
 										trigger="instant">
-										Helping designers code and developers design
+										AI-driven crypto trading designed to optimize a better financial future.
+
+
 									</LetterFx>
 								</span>
 							</Heading>
 							<Button
 								id="readDocs"
-								href="https://once-ui.com/docs"
+								href="mailto: jw@cipheralphacapital.com"
+								// <a href= "mailto: jw@cipheralphacapital.com"></a>
 								variant="secondary">
 								<Flex alignItems="center">
-									Read docs
+									Contact Us
 									<Arrow trigger="#readDocs"/>
 								</Flex>
 							</Button>
@@ -102,11 +134,11 @@ export default function Home() {
 											variant="body-strong-m" onBackground="neutral-strong">
 											{link.title}
 										</Text>
-										<Icon size="s" name="arrowUpRight" />
+										{/* <Icon size="s" name="arrowUpRight" /> */}
 									</Flex>
 									<Text
 										variant="body-default-s" onBackground="neutral-weak">
-										{link.description}
+										{/* {link.description} */}
 									</Text>
 								</Flex>
 							</Link>
@@ -119,11 +151,11 @@ export default function Home() {
 				position="relative"
 				fillWidth paddingX="l" paddingY="m"
 				justifyContent="space-between">
-				<Text
+				{/* <Text
 					variant="body-default-s" onBackground="neutral-weak">
 					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
-				</Text>
-				<Flex
+				</Text> */}
+				{/* <Flex
 					gap="12">
 					<Button
 						href="https://github.com/once-ui-system/nextjs-starter"
@@ -135,7 +167,7 @@ export default function Home() {
 						prefixIcon="discord" size="s" variant="tertiary">
 						Discord
 					</Button>
-				</Flex>
+				</Flex> */}
 			</Flex>
 		</Flex>
 	);

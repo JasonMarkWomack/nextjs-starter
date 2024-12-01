@@ -92,7 +92,7 @@ export default function Home() {
 								<span className="font-code">
 									<LetterFx
 										trigger="instant">
-										AI-driven crypto trading designed to optimize a better financial future.
+										AI-driven crypto trading designed for a better financial future.
 
 
 									</LetterFx>

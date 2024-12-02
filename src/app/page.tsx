@@ -8,45 +8,45 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Institutional-Grade Dark Pools on Our Crytpo Exchange ",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Automated Quant Algo Development",
 			// description: "Build responsive layouts.",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Trade Crypto Spots and Prepertual Futures",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Streamlined Altcoin Integration"
 			// description: "Style your app in minutes.",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Customizable AI Bots",
 			// description: "Build responsive layouts.",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Pre-Market Trading Capabilities",
 			// description: "Scale text automatically.",
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Trading Terminals",
 			//  Custodial and non-custodial
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "Custodial and Non Custodial Wallets",
 
 		},
 		{
-			href: "https://cipheralphacapital.com/",
+			href: "#",
 			title: "All-In-One Trading Platform",
 
 		},

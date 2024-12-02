@@ -8,45 +8,36 @@ import Link from 'next/link';
 export default function Home() {
 	const links = [
 		{
-			href: "#",
 			title: "Institutional-Grade Dark Pools on Our Crytpo Exchange ",
 		},
 		{
-			href: "#",
 			title: "Automated Quant Algo Development",
 			// description: "Build responsive layouts.",
 		},
 		{
-			href: "#",
 			title: "Trade Crypto Spots and Prepertual Futures",
 		},
 		{
-			href: "#",
 			title: "Streamlined Altcoin Integration"
 			// description: "Style your app in minutes.",
 		},
 		{
-			href: "#",
 			title: "Customizable AI Bots",
 			// description: "Build responsive layouts.",
 		},
 		{
-			href: "#",
 			title: "Pre-Market Trading Capabilities",
 			// description: "Scale text automatically.",
 		},
 		{
-			href: "#",
 			title: "Trading Terminals",
 			//  Custodial and non-custodial
 		},
 		{
-			href: "#",
 			title: "Custodial and Non Custodial Wallets",
 
 		},
 		{
-			href: "#",
 			title: "All-In-One Trading Platform",
 
 		},

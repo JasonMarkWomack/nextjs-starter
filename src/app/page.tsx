@@ -1,50 +1,50 @@
 "use client";
 
 import React from 'react';
-
 import { Heading, Text, Flex, Button, Grid, Icon, InlineCode, Logo, LetterFx, Arrow } from '@/once-ui/components';
 import Link from 'next/link';
 
 export default function Home() {
 	const links = [
 		{
-			title: "Institutional-Grade Dark Pools on Our Crytpo Exchange ",
+			href: "#",
+			title: "Institutional-Grade Dark Pools on Our Crypto Exchange",
 		},
 		{
+			href: "#",
 			title: "Automated Quant Algo Development",
-			// description: "Build responsive layouts.",
 		},
 		{
-			title: "Trade Crypto Spots and Prepertual Futures",
+			href: "#",
+			title: "Trade Crypto Spots and Perpetual Futures",
 		},
 		{
-			title: "Streamlined Altcoin Integration"
-			// description: "Style your app in minutes.",
+			href: "#",
+			title: "Streamlined Altcoin Integration",
 		},
 		{
+			href: "#",
 			title: "Customizable AI Bots",
-			// description: "Build responsive layouts.",
 		},
 		{
+			href: "#",
 			title: "Pre-Market Trading Capabilities",
-			// description: "Scale text automatically.",
 		},
 		{
+			href: "#",
 			title: "Trading Terminals",
-			//  Custodial and non-custodial
 		},
 		{
-			title: "Custodial and Non Custodial Wallets",
-
+			href: "#",
+			title: "Custodial and Non-Custodial Wallets",
 		},
 		{
+			href: "#",
 			title: "All-In-One Trading Platform",
-
 		},
 	];
 
 	return (
-
 		<Flex
 			fillWidth paddingTop="l" paddingX="l"
 			direction="column" alignItems="center" flex={1}>
@@ -69,14 +69,6 @@ export default function Home() {
 							position="relative"
 							flex={4} gap="24" marginBottom="104"
 							direction="column">
-							{/* <InlineCode
-								className="shadow-m"
-								style={{
-									width: 'fit-content',
-									padding: 'var(--static-space-8) var(--static-space-16)',
-									backdropFilter: 'blur(var(--static-space-1))'}}>
-								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
-							</InlineCode> */}
 							<Heading
 								wrap="balance"
 								variant="display-strong-s">
@@ -84,15 +76,12 @@ export default function Home() {
 									<LetterFx
 										trigger="instant">
 										AI-driven crypto trading designed for a better financial future.
-
-
 									</LetterFx>
 								</span>
 							</Heading>
 							<Button
 								id="readDocs"
 								href="mailto: jw@cipheralphacapital.com"
-								// <a href= "mailto: jw@cipheralphacapital.com"></a>
 								variant="secondary">
 								<Flex alignItems="center">
 									Contact Us
@@ -112,7 +101,7 @@ export default function Home() {
 						{links.map((link) => (
 							<Link
 								target="_blank"
-								style={{ padding: 'var(--responsive-space-l)' }}
+								style={{ padding: 'var(--responsive-space-l)', pointerEvents: 'none' }}
 								key={link.href}
 								href={link.href}>
 								<Flex
@@ -125,11 +114,9 @@ export default function Home() {
 											variant="body-strong-m" onBackground="neutral-strong">
 											{link.title}
 										</Text>
-										{/* <Icon size="s" name="arrowUpRight" /> */}
 									</Flex>
 									<Text
 										variant="body-default-s" onBackground="neutral-weak">
-										{/* {link.description} */}
 									</Text>
 								</Flex>
 							</Link>
@@ -142,23 +129,6 @@ export default function Home() {
 				position="relative"
 				fillWidth paddingX="l" paddingY="m"
 				justifyContent="space-between">
-				{/* <Text
-					variant="body-default-s" onBackground="neutral-weak">
-					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
-				</Text> */}
-				{/* <Flex
-					gap="12">
-					<Button
-						href="https://github.com/once-ui-system/nextjs-starter"
-						prefixIcon="github" size="s" variant="tertiary">
-						GitHub
-					</Button>
-					<Button
-						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon="discord" size="s" variant="tertiary">
-						Discord
-					</Button>
-				</Flex> */}
 			</Flex>
 		</Flex>
 	);
